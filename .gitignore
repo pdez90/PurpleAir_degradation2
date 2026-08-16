@@ -1,0 +1,16 @@
+*.RData
+*.rds
+*.parquet
+*.csv
+.Rhistory
+.RData
+.Rproj.user/
+*.docx
+*.log
+
+# Never commit credentials
+*.json
+!.Rproj.user/**/*.json
+.Renviron
+.secrets/
+service-account*.json
